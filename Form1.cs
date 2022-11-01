@@ -22,17 +22,28 @@ namespace slnCursoNet
         private void button1_Click(object sender, EventArgs e)
         {
             Titulo Dune = new Titulo();
-            Titulo EnCambio = new Titulo();
             Dune.Categoria = "Ciencia Ficcion";
             Dune.NombreTitulo = "Dune";
 
+            Titulo EnCambio = new Titulo();
             EnCambio.Categoria = "auto-ayuda";
             EnCambio.Precio = 1500;
             EnCambio.NombreTitulo = "EnCambio";
+            
+            Publicador publicador1 = new Publicador();
+            publicador1.Ciudad = "Londres";
+            publicador1.Nombre = "Estanislao";
 
+            Autor autor1 = new Autor();
+            autor1.Nombre = "Juan";
+            autor1.Apellido = "Jimenez";
+
+            Remito remito1 = new Remito();
+            remito1.Numero = "0001234";
+            remito1.CondicionVenta = "Contado";
 
             
         }
-        }
+        
     }
 }
